@@ -1,3 +1,4 @@
-lst=[1,2,3,4,5]
-total=sum(lst)
-print(total)
+sentence="she is a brave girl"
+width=50
+words=sentence.split()
+justified_text=''.join(words).center(width)
